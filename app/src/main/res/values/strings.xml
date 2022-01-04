@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Badminton score</string>
+    <string name="type_of_match">TYPE OF MATCH</string>
+    <string name="single">SINGLE</string>
+    <string name="doubles">DOUBLE</string>
+    <string name="name">NAME</string>
+    <string name="player1">PLAYER 1</string>
+    <string name="player2">PLAYER 2</string>
+    <string name="scre_text">SCORE</string>
+    <string name="score_a">0</string>
+    <string name="score_b">0</string>
+    <string name="teama">TEAM A</string>
+    <string name="teamb">TEAM B</string>
+    <string name="teamPlayera">team a</string>
+    <string name="teamPlayerb">team b</string>
+    <string name="press">PRESS TO INCREASE SCORE</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".players_name"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/player_name_text"
+        android:text="@string/player1"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/playerfirst"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/name"
+        style="@style/player_name_text"
+
+        android:inputType="textMultiLine">
+
+    </EditText>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/player_name_text"
+        android:text="@string/player2"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/playersec"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/name"
+        android:inputType="textMultiLine"
+
+        style="@style/player_name_text">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:onClick="callScoreCard"
+        />
+
+</LinearLayout>

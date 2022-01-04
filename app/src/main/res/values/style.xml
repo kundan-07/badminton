@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextviewStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="buttontype">
+        <item name="backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+    <style name="player_name_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+        <style name="score_display">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">75dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="scoreButton">
+        <item name="backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">25dp</item>
+        <item name="android:text">@string/press</item>
+
+    </style>
+
+</resources>
